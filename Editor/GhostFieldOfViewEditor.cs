@@ -4,6 +4,8 @@ using UnityEditor;
 [CustomEditor(typeof(GhostFieldOfView))]
 public class GhostFieldOfViewEditor : Editor
 {
+    //Special thanks to https://www.youtube.com/watch?v=j1-OyLo77ss
+    //Comp-3 Interactive for an editor script to see enemy FOV
     //Whenever the GhostFieldOfView is active, this editor will start running
     private void OnSceneGUI()
     {

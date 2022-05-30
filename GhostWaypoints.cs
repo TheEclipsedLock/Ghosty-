@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GhostWaypoints : MonoBehaviour
 {
+    //Special thanks to https://www.youtube.com/watch?v=TJCOC0gcU4k
+    //Lurony for the tutorial on making waypoints for the ghosts to "float" through.
+
     //Array of waypoints and their corresponding transforms within
     public GameObject[] waypoints;
 

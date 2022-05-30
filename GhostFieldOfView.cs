@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GhostFieldOfView : MonoBehaviour
 {
+    //Special thanks to https://www.youtube.com/watch?v=j1-OyLo77ss
+    //Comp-3 Interactive for the tutorial on how to have a field of view.
     public float enemyRadius;
 
     [Range(0, 360)]
